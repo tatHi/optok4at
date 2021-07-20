@@ -1,0 +1,8 @@
+-e git+https://github.com/tatHi/multigram.git@c833c421446d0da0a11cfbcb2b5353f91ca4d79b#egg=multigram
+numpy==1.20.3
+PyYAML==5.3
+scikit-learn==0.22.2
+scipy==1.5.2
+sentencepiece==0.1.91
+torch==1.6.0+cu101
+tqdm==4.43.0
