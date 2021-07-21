@@ -1,0 +1,8 @@
+/fairseq/examples/
+/fairseq/experiment*
+/fairseq/data-bin/
+/tmp_data/
+/data/
+/logs/
+/bin*
+/checkpoints/
