@@ -214,7 +214,7 @@ def prepare(args):
         mlm.load(args.multigramLanguageModel)
 
         # add unk
-        if args.encoderType != 'bert' and '<unk>' not in mlm.vocab:
+        if '<unk>' not in mlm.vocab:
             mlm.addWordToVocab('<unk>', p=1e-7)
         
         print('>>> LOAD MULTIGRAM LM')
